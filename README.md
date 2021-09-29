@@ -13,3 +13,4 @@ Accounts:
 1. new_match(player_1, player_2, match_seed): Transfer wSOL to token_vault then write data to match_data
 2. conclude_match(winner_pubkey): Must be signed by referee_authority. Set winner_address and prize_settled = 0 in match_data struct.
 3. settle_prize(): Signed  by winner. Check if winner matches and prize is not settled. Transfer winnings to user.
+
